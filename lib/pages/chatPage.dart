@@ -13,7 +13,7 @@ class chatPage extends StatefulWidget{
 
 class _MiAppState extends State<chatPage> {
   TextEditingController inputText = TextEditingController();
-  String apiKey = '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';
+  String apiKey = '';
   String url = 'https://api.openai.com/v1/images/generations';
   String? image;
 
